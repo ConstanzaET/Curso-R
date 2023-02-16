@@ -1,0 +1,40 @@
+# Generar una varuable llamada volumen
+vol <- 345
+vol == 345
+
+# Condicional if
+if (vol == 345) {
+  print("Mi nombre es César")
+}
+
+if (vol == 100) {
+  print("Mi nombre es César")
+}
+
+# Secuencia numérica del 1 al 500 en saltos de 3.7
+vec1 <- seq(1, 500, 3.7)
+
+# Evaluar los elementos mayores a 260
+if (vec1 > 260) {
+  print("El lenguaje R es el mejor")
+}
+
+# Guardar una variable si se cumple cierta condición
+if (vol == 345) {
+  temp <- (vol * 10) + 5
+}
+
+# Condicional if-else
+if (vol == 100) {
+  print("Esta condición es falsa")
+} else {
+  print("Esta condición es verdadera")
+}
+
+if (vol == 100) {
+  temp <- vol * 10
+} else {
+  temp1 <- vol + 10
+}
+
+
